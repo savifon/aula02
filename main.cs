@@ -1,7 +1,11 @@
 using System;
 
 class MainClass {
-  public static void Main (string[] args) {
-    Console.WriteLine ("Hello World");
+	public static void Teste () {
+    Console.WriteLine ("Imprime 'teste'");
+  }
+
+  public static void Main () {
+    Teste();
   }
 }
